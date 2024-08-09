@@ -1,0 +1,6 @@
+.btn-primary {
+    @apply bg-green2 border border-green2 text-white text-[15px] font-semibold py-[14px] px-4 rounded-full;
+}
+.btn-outline {
+    @apply bg-white border border-green3 text-green1 text-[15px] font-semibold py-[14px] px-4 rounded-full;
+}
