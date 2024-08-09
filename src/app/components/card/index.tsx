@@ -162,14 +162,14 @@ const Card = () => {
                     ))
                 }
                 <div className="flex gap-3 justify-center">
-                    <Button variant='primary'>
+                    <Button variant='primary' onClick={() => window.open('http://example.com/learn-more')}>
                         <div className="flex items-center gap-3">
                             Learn More
                             <IconArrowRight/>
                         </div>
                     </Button>
 
-                    <Button variant='outline'>
+                    <Button variant='outline' onClick={() => window.location.href = 'tel:1800 071 176'}>
                         <div className="flex items-center gap-3">
                             <IconPhone className="text-white" />
                             1800 071 176
